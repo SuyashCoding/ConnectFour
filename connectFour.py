@@ -41,7 +41,7 @@ def reset_game():
   st.session_state.turn = "R"
   st.session_state.winner = None
 
-st.title("Connect 4")
+st.title("Connect 04")
 
 drop_cols = st.columns(COLS)
 for i in range(COLS):
